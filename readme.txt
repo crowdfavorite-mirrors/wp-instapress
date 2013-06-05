@@ -4,7 +4,7 @@ Donate link:
 Tags: widgets, photos, instagram, shortcode, images, instapress, sidebar, gallery
 Requires at least: 3.0
 Tested up to: 3.3
-Stable tag: 1.5.4
+Stable tag: 1.5.5
 
 Highly customizable plugin to display Instagram photos in a sidebar widget, a post or on a page. Also an image gallery with paging functionality.
 
@@ -70,9 +70,10 @@ This plugin is currently available in the following languages:
 * Romanian (Thanks to: <a href="http://www.nobelcom.com/" target="_blank">Luke Tyler</a>)
 * Russian (Thanks to: <a href="http://www.iflexion.com/" target="_blank">Iflexion</a>)
 * Hungarian (Thanks to: Kristof Gruber) 
-* Italian (Thanks to: Francesco Benanti) 
+* Italian (Thanks to: Francesco Benanti)
+* Swedish (Thanks to: <a href="http:/www.simondahla.com" target="_blank">Simon Dahla</a>)
 
-If you've created your own language pack please let me know at <a href="mailto:t.krammer@liechtenecker.at">t.krammer [at] liechtenecker.at</a><br />
+If you've created your own language pack please let me know at <a href="mailto:office@liechtenecker.at">office [at] liechtenecker.at</a><br />
 Download the latest POT-File <a href="http://plugins.svn.wordpress.org/instapress/trunk/languages/instapress.pot">here</a>
 
 For a german description of the plugin visit our blog at <a href="http://liechtenecker.at/instapress-das-instagram-plugin-fur-wordpress/" target="_blank">http://liechtenecker.at/instapress-das-instagram-plugin-fur-wordpress/</a>
@@ -185,6 +186,10 @@ This means that you should check if you are running on PHP 5 and activated OpenS
 * Initial upload to WordPress plugin directory
 
 == Changelog ==
+
+= 1.5.4 =
+
+* Added language support fur Swedish (Thanks to: <a href="http:/www.simondahla.com" target="_blank">Simon Dahla</a>)
 
 = 1.5.4 =
 * Added language support for Italian (Thanks to Francesco Benanti)

@@ -122,7 +122,7 @@
 </div>
 <h3><?php _e('Trouble shooting', 'instagram'); ?></h3>
 <div>
-	<?php echo sprintf(__('If you\'re having troubles using this plugin, please be so kind as to report issues here: %s or by e-mail here: %s', 'instagram'), '<a href="http://wordpress.org/tags/instapress?forum_id=10" target="_blank">http://wordpress.org/tags/instapress?forum_id=10</a>', '<a href="mailto:t.krammer@liechtenecker.at">t.krammer@liechtenecker.at</a>'); ?>
+	<?php echo sprintf(__('If you\'re having troubles using this plugin, please be so kind as to report issues here: %s or by e-mail here: %s', 'instagram'), '<a href="http://wordpress.org/tags/instapress?forum_id=10" target="_blank">http://wordpress.org/tags/instapress?forum_id=10</a>', '<a href="mailto:office@liechtenecker.at">office@liechtenecker.at</a>'); ?>
 </div>
 <div>
 	<h3><?php _e('You love this plugin?', 'instagram'); ?></h3>
