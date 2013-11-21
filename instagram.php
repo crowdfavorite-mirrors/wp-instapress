@@ -774,7 +774,7 @@
 					// In dieser Variable werden eventuelle Fehlermeldungen während der Autorisierung gespeichert
 					$errorMessage = "";
 					// Request an das API schicken, um einen Access-Token zu erhalten
-					$token = $instagram->getAccessToken(&$errorMessage);
+					$token = $instagram->getAccessToken($errorMessage);
 				
 					// Wenn es einen Access-Token gibt
 					if($token)
