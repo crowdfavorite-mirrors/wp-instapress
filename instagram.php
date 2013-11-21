@@ -303,12 +303,12 @@
 				$max_id = $nextMaxId;
 				// Feed eines Users ab der gegebenen max_id laden und nächsten max_id holen
 				if(!$tagFeed)
-					$data = InstagramPlugin::getFeedByUserId($userid, $max_id, &$nextMaxId, intval($values['piccount']));
+					$data = InstagramPlugin::getFeedByUserId($userid, $max_id, $nextMaxId, intval($values['piccount']));
 				// Feed eines Users nach Tag gefiltert ab der gegebenen max_id laden und nächsten max_id holen
 				else if($tagFeed && $userid)
-					$data = InstagramPlugin::getFeedByUserId($userid, $max_id, &$nextMaxId, intval($values['piccount']), new InstapressFeedFilter('tags', $values['tag'], InstapressFeedFilter::IN_ARRAY));
+					$data = InstagramPlugin::getFeedByUserId($userid, $max_id, $nextMaxId, intval($values['piccount']), new InstapressFeedFilter('tags', $values['tag'], InstapressFeedFilter::IN_ARRAY));
 				else // Feed nach angegebenem Tag laden
-					$data = InstagramPlugin::getFeedByTag($values['tag'], $max_id, &$nextMaxId, intval($values['piccount']));
+					$data = InstagramPlugin::getFeedByTag($values['tag'], $max_id, $nextMaxId, intval($values['piccount']));
 
 				// Daten im Feed gefunden
 				if(count($data) > 0)
@@ -445,7 +445,7 @@
 		 * Lädt den Feed für den angegebenen Tag
 		 * @param $tag string	 	Hashtag nach dem gesucht werden soll
 		 * @param $max_id int 		ID ab der der Feed geladen werden soll
-		 * @param &$nextMaxId int	max_id die für den Aufruf der nächsten Seite des Feeds benötigt wird
+		 * @param $nextMaxId int	max_id die für den Aufruf der nächsten Seite des Feeds benötigt wird
 		 * 
 		 * @return array der Feed (siehe Instagram API Dokumentation)
 		 */
