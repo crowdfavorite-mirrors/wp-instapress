@@ -4,8 +4,8 @@
 	Plugin URI: http://instapress.it
 	Description: <b>Highly customizable</b> plugin to display a feed of pictures uploaded via <a href="http://instagr.am" target="_blank">Instagram</a>. Display a users media, your own media or the popular media feed. Choose whether to integrate the Instagrams as a widget or directly in your posts.
 	Version: 1.5.3
-	Author: Thomas Krammer
-	Author URI: http://liechtenecker.at/unternehmen/
+	Author: liechtenecker
+	Author URI: http://liechtenecker.at/
 	License: GPL2
 	*/
 

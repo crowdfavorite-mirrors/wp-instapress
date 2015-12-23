@@ -4,15 +4,20 @@ Donate link:
 Tags: widgets, photos, instagram, shortcode, images, instapress, sidebar, gallery
 Requires at least: 3.0
 Tested up to: 3.3
-Stable tag: 1.5.5
+Stable tag: 1.5.7
 
 Highly customizable plugin to display Instagram photos in a sidebar widget, a post or on a page. Also an image gallery with paging functionality.
 
 == Description ==
+
+= Attention =
+At the moment Instapress won't work on your blog.
+Want to help rebuilding this plugin? Follow this link: <a href="https://github.com/Liechtenecker/instapress" target="_blank">https://github.com/Liechtenecker/instapress</a>
+
+= Features =
 Display your Instagram photos in a sidebar widget, post or pages or inlcude a single Instagram photo via the Instagram URL in one of your posts. 
 Furthermore create your own Instagram gallery with Instapress' paging functionality. It makes use of jQuery's fancybox plugin to display a nice slideshow for your images.
 
-= Features =
 You can choose:
 
 * how many Instagram images you want to display
@@ -72,6 +77,8 @@ This plugin is currently available in the following languages:
 * Hungarian (Thanks to: Kristof Gruber) 
 * Italian (Thanks to: Francesco Benanti)
 * Swedish (Thanks to: <a href="http:/www.simondahla.com" target="_blank">Simon Dahla</a>)
+* Spanish (Thanks to: <a href="http://laotraboladecristal.com" target="_blank">Maribel</a>)
+* Dutch (Thanks to:  Huub Oosterbroek)
 
 If you've created your own language pack please let me know at <a href="mailto:office@liechtenecker.at">office [at] liechtenecker.at</a><br />
 Download the latest POT-File <a href="http://plugins.svn.wordpress.org/instapress/trunk/languages/instapress.pot">here</a>
@@ -187,8 +194,11 @@ This means that you should check if you are running on PHP 5 and activated OpenS
 
 == Changelog ==
 
-= 1.5.4 =
+= 1.5.6 =
+* Spanish (Thanks to: <a href="http://laotraboladecristal.com" target="_blank">Maribel</a>)
+* Dutch (Thanks to:  Huub Oosterbroek)
 
+= 1.5.5 =
 * Added language support fur Swedish (Thanks to: <a href="http:/www.simondahla.com" target="_blank">Simon Dahla</a>)
 
 = 1.5.4 =
